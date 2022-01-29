@@ -8,3 +8,5 @@ Tournevis
 Castor
 Ensorceler
 Ordre
+Sortir
+Attraper
