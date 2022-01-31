@@ -1,0 +1,142 @@
+.victoire
+{
+    height: 500px;
+    width: 50%;
+}
+.zone-victoire
+{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+.confetti
+{
+    height: 95%;
+    width: 95%;
+    position: absolute;
+}
+.msg
+{
+    font-family: "patrickhand";
+    font-size: 80px;
+}
+.msg2
+{
+    font-family: "patrickhand";
+    font-size: 60px;
+}
+@font-face
+{
+    font-family: "patrickhand";
+    src: url("fonts/patrickhand-regular-webfont.woff") format("woff"), url("fonts/patrickhand-regular-webfont.woff2") format("woff2");
+}
+.msg-zone
+{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.msg2-zone
+{
+    display: flex;
+    height: 120px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.bienvenue
+{
+    font-family: "patrickhand";
+    font-size: 60px;
+}
+.bienvenue-zone
+{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+body
+{
+    margin: 0;
+	height: 100%;
+	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.button_container
+{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 27%;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+.description, .link
+{
+    font-family: "patrickhand";
+    text-align: center;
+}
+.btn
+{
+    border: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #222;
+    padding: 17px 60px;
+    margin: 0 auto;
+    font-family: "patrickhand";
+    box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+.btn span
+{
+    position: relative; 
+    z-index: 1;
+}
+.btn:after
+{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 490%;
+    width: 140%;
+    background: #78c7d2;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+    transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+.btn:hover:after
+{
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.link
+{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.link a
+{
+    color: #000;
+    font-size: 25px; 
+}

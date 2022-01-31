@@ -1,0 +1,6 @@
+<FilesMatch "admin.php">
+AuthName "Page administration"
+AuthType Basic
+AuthUserFile "C:\xampp\htdocs\pendu\admin\admin\.htpasswd"
+Require valid-user
+</FIlesMatch>
