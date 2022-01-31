@@ -48,7 +48,6 @@
                 $false = $_SESSION['false']; 
                 if($false !=0)
                 {
-                    // rajoute photo perdu
                     echo "<img src='image/$false.png'>";
                 }
                 echo "</div>";
