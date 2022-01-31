@@ -59,7 +59,6 @@ class Pendu
         echo "<div class='button_container'>
         <a href='nouvellepartie.php'><button class='btn'><span>Nouvelle partie</span></button></a></div>";  
         $_SESSION['victoires']++;
-        echo "$_SESSION[victoires]";
         exit();
     }
     // Le choix des mots
