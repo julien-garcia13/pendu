@@ -16,19 +16,21 @@ class Pendu
         if(!empty($_SESSION['victoires']))
         {
             echo "<p class='bienvenue'> Bienvenue sur le jeu du Pendu !</p>";
-            // Met une image d'acceuille le s 
-            echo "<img src=''>";
+            echo "<div class='zone-welcome'>
+            <img src='image/welcome.png'>
+            </div>";
             echo "<a class='continuer' href='index.php?etat=jouer'>Continuer</a>"."<br>";
             echo "<div class='button_container'>
             <a href='nouvellepartie.php'><button class='btn'><span>Nouvelle partie</span></button></a>";  
         }
         else
         {
-            // rajoute image de bienvenu
             echo "<div class='bienvenue-zone'>
             <p class='bienvenue'> Bienvenue sur le jeu du Pendu !</p>
             </div>";
-            echo "<img class='img-bienvenue' src=''>";
+            echo "<div class='zone-welcome'>
+            <img src='image/welcome.png'>
+            </div>";
             echo "<div class='button_container'>
             <a href='nouvellepartie.php'><button class='btn'><span>Nouvelle partie</span></button></a>";
         }

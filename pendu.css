@@ -140,3 +140,10 @@ body
     color: #000;
     font-size: 25px; 
 }
+.zone-welcome
+{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width: 100%;
+}
