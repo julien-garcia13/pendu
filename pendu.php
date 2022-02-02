@@ -54,7 +54,7 @@ class Pendu
         <div class='msg2'> Le mot était bien : $mot !<br /></div>
         </div>";
         echo "<div class='zone-victoire'>
-        <img class='victoire' src='image/victoire.jpg'>
+        <img class='victoire' src='image/Victoire.jpg'>
         </div>";
         echo "<div class='button_container'>
         <a href='nouvellepartie.php'><button class='btn'><span>Nouvelle partie</span></button></a></div>";  
